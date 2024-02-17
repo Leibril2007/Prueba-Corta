@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html{
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    width: 700px;
+    height: 100px;
+    background: #27AE60;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10px;
+}
+.tituloConte{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.titulo1{
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+section{
+    width: 700px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #27AE60;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.article1{
+    width: 35%;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.base1{
+    height: 45%;
+    margin: auto;
+}
+
+.cuadritos{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.article2{
+    width: 55%;
+    height: 625px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.PAN{
+    height: 100%;
+}
+.LAN{
+    height: 100%;
+}
+.Estrella{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
